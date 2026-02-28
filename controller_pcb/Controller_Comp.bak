@@ -2,12 +2,12 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "ATTINY85V-10SU"
+	(symbol "ATTINY85-20PU"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 115.57 7.62 0)
+			(at 113.03 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,8 +15,8 @@
 				(justify left top)
 			)
 		)
-		(property "Value" "ATTINY85V-10SU"
-			(at 115.57 5.08 0)
+		(property "Value" "ATTINY85-20PU"
+			(at 113.03 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24,17 +24,8 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "Controller_Footprints:SOIC127P798X216-8N"
-			(at 115.57 -94.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/b7d776087f3438c2ffab22c1216558b5.pdf"
-			(at 115.57 -194.92 0)
+		(property "Footprint" "DIP781W56P254L950H533Q8N"
+			(at 113.03 -94.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,8 +34,18 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ATTINY85V-10SU, 8 bit AVR Microcontroller 10MHz 8kb Flash, 512B RAM, I2C SPI 8-Pin SOIC"
-			(at 53.848 -14.478 0)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ATTINY85-20PU.pdf"
+			(at 113.03 -194.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MICROCHIP - ATTINY85-20PU - MICROCONTROLLER MCU, 8 BIT, ATTINY, 20MHZ, DIP-8"
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52,8 +53,8 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.16"
-			(at 115.57 -394.92 0)
+		(property "Height" "5.334"
+			(at 113.03 -394.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,7 +64,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Microchip"
-			(at 115.57 -494.92 0)
+			(at 113.03 -494.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -72,8 +73,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ATTINY85V-10SU"
-			(at 115.57 -594.92 0)
+		(property "Manufacturer_Part_Number" "ATTINY85-20PU"
+			(at 113.03 -594.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,8 +83,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "556-ATTINY85V10SU"
-			(at 115.57 -694.92 0)
+		(property "Mouser Part Number" "556-ATTINY85-20PU"
+			(at 113.03 -694.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -92,8 +93,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY85V-10SU?qs=8jWQYweyg6NQ5xH6egcL8w%3D%3D"
-			(at 115.57 -794.92 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY85-20PU?qs=8jWQYweyg6NCiiaOb5GI9Q%3D%3D"
+			(at 113.03 -794.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -102,8 +103,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Part Number" "ATTINY85V-10SU"
-			(at 115.57 -894.92 0)
+		(property "Arrow Part Number" "ATTINY85-20PU"
+			(at 113.03 -894.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -112,8 +113,8 @@
 				(hide yes)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/attiny85v-10su/microchip-technology?utm_currency=USD&region=nac"
-			(at 115.57 -994.92 0)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/attiny85-20pu/microchip-technology?utm_currency=USD&region=nac"
+			(at 113.03 -994.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,10 +123,10 @@
 				(hide yes)
 			)
 		)
-		(symbol "ATTINY85V-10SU_1_1"
+		(symbol "ATTINY85-20PU_1_1"
 			(rectangle
 				(start 5.08 2.54)
-				(end 100.33 -10.16)
+				(end 111.76 -10.16)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -137,7 +138,7 @@
 			(pin passive line
 				(at 0 0 0)
 				(length 5.08)
-				(name "(PCINT5/~{RESET}/ADC0/DW)_PB5"
+				(name "PB5_(PCINT5/~{RESET}/ADC0/DW)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -152,10 +153,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -2.54 0)
 				(length 5.08)
-				(name "(PCINT3/XTAL1/CLKI/~{OC1B}/ADC3)_PB3"
+				(name "PB3_(PCINT3/XTAL1/CLKI/~{OC1B}/ADC3)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -170,10 +171,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 0 -5.08 0)
 				(length 5.08)
-				(name "(PCINT4/XTAL2/CLKO/OC1B/ADC2)_PB4"
+				(name "PB4_(PCINT4/XTAL2/CLKO/OC1B/ADC2)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -188,10 +189,10 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 0 -7.62 0)
 				(length 5.08)
-				(name "GND"
+				(name "GROUND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -206,8 +207,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 105.41 0 180)
+			(pin power_in line
+				(at 116.84 0 180)
 				(length 5.08)
 				(name "VCC"
 					(effects
@@ -224,8 +225,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 105.41 -2.54 180)
+			(pin bidirectional line
+				(at 116.84 -2.54 180)
 				(length 5.08)
 				(name "PB2_(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)"
 					(effects
@@ -242,8 +243,8 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 105.41 -5.08 180)
+			(pin bidirectional line
+				(at 116.84 -5.08 180)
 				(length 5.08)
 				(name "PB1_(MISO/DO/AIN1/OC0B/OC1A/PCINT1)"
 					(effects
@@ -260,10 +261,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 105.41 -7.62 180)
+			(pin bidirectional line
+				(at 116.84 -7.62 180)
 				(length 5.08)
-				(name "PB0_(MOSI/DI/SDA/AIN0/OC0A/~{OC1A}/AREF/PCINT0)"
+				(name "PB0_(MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -724,14 +725,13 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "ERJP06D1000V"
+		(property "Footprint" "Controller_Footprints:ERJP06D1000V"
 			(at 13.97 -96.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"

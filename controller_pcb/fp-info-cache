@@ -1,4 +1,4 @@
-27226104573198956
+27226105182375203
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57666,19 +57666,19 @@ Capacitor
 2
 2
 Controller_Footprints
+DIP781W56P254L950H533Q8N
+MCP6541-I/P PDIP
+Integrated Circuit
+0
+8
+8
+Controller_Footprints
 ERJP06D1000V
 ERJP06(0805)
 Resistor
 0
 2
 2
-Controller_Footprints
-SOIC127P798X216-8N
-8-SOIC _
-Integrated Circuit
-0
-8
-8
 Converter_ACDC
 Converter_ACDC_CUI_PBO-3-Sxx_THT_Vertical
 ACDC-Converter, 3W, CUI PBO-3, THT https://www.cui.com/product/resource/pbo-3.pdf

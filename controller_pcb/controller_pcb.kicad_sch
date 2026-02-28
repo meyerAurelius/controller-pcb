@@ -5,12 +5,28 @@
 	(uuid "35628871-c2d7-47c8-b610-2ce05008c7f9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Controller_Comp:ATTINY85V-10SU"
+		(symbol "Controller_Comp:ATTINY85-20PU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 115.57 7.62 0)
+			(property "Reference" "IC2"
+				(at 58.42 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ATTINY85-20PU"
+				(at 58.42 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "DIP781W56P254L950H533Q8N"
+				(at 113.03 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -18,27 +34,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "ATTINY85V-10SU"
-				(at 115.57 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SOIC127P798X216-8N"
-				(at 115.57 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/b7d776087f3438c2ffab22c1216558b5.pdf"
-				(at 115.57 -194.92 0)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ATTINY85-20PU.pdf"
+				(at 113.03 -194.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,8 +44,8 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "ATTINY85V-10SU, 8 bit AVR Microcontroller 10MHz 8kb Flash, 512B RAM, I2C SPI 8-Pin SOIC"
-				(at 53.848 -14.478 0)
+			(property "Description" "MICROCHIP - ATTINY85-20PU - MICROCONTROLLER MCU, 8 BIT, ATTINY, 20MHZ, DIP-8"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -56,8 +53,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "2.16"
-				(at 115.57 -394.92 0)
+			(property "Height" "5.334"
+				(at 113.03 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,7 +64,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "Microchip"
-				(at 115.57 -494.92 0)
+				(at 113.03 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -76,8 +73,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "ATTINY85V-10SU"
-				(at 115.57 -594.92 0)
+			(property "Manufacturer_Part_Number" "ATTINY85-20PU"
+				(at 113.03 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -86,8 +83,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "556-ATTINY85V10SU"
-				(at 115.57 -694.92 0)
+			(property "Mouser Part Number" "556-ATTINY85-20PU"
+				(at 113.03 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -96,8 +93,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY85V-10SU?qs=8jWQYweyg6NQ5xH6egcL8w%3D%3D"
-				(at 115.57 -794.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY85-20PU?qs=8jWQYweyg6NCiiaOb5GI9Q%3D%3D"
+				(at 113.03 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -106,8 +103,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "ATTINY85V-10SU"
-				(at 115.57 -894.92 0)
+			(property "Arrow Part Number" "ATTINY85-20PU"
+				(at 113.03 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -116,8 +113,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/attiny85v-10su/microchip-technology?utm_currency=USD&region=nac"
-				(at 115.57 -994.92 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/attiny85-20pu/microchip-technology?utm_currency=USD&region=nac"
+				(at 113.03 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -126,7 +123,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "ATTINY85V-10SU_1_1"
+			(symbol "ATTINY85-20PU_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 100.33 -10.16)
@@ -141,7 +138,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "(PCINT5/~{RESET}/ADC0/DW)_PB5"
+					(name "PB5_(PCINT5/~{RESET}/ADC0/DW)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -156,10 +153,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "(PCINT3/XTAL1/CLKI/~{OC1B}/ADC3)_PB3"
+					(name "PB3_(PCINT3/XTAL1/CLKI/~{OC1B}/ADC3)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -174,10 +171,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "(PCINT4/XTAL2/CLKO/OC1B/ADC2)_PB4"
+					(name "PB4_(PCINT4/XTAL2/CLKO/OC1B/ADC2)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -192,10 +189,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 0 -7.62 0)
 					(length 5.08)
-					(name "GND"
+					(name "GROUND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -210,7 +207,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_in line
 					(at 105.41 0 180)
 					(length 5.08)
 					(name "VCC"
@@ -228,7 +225,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 105.41 -2.54 180)
 					(length 5.08)
 					(name "PB2_(SCK/USCK/SCL/ADC1/T0/INT0/PCINT2)"
@@ -246,7 +243,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 105.41 -5.08 180)
 					(length 5.08)
 					(name "PB1_(MISO/DO/AIN1/OC0B/OC1A/PCINT1)"
@@ -264,10 +261,10 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin bidirectional line
 					(at 105.41 -7.62 180)
 					(length 5.08)
-					(name "PB0_(MOSI/DI/SDA/AIN0/OC0A/~{OC1A}/AREF/PCINT0)"
+					(name "PB0_(MOSI/DI/SDA/AIN0/OC0A/OC1A/AREF/PCINT0)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1744,164 +1741,6 @@
 			(type default)
 		)
 		(uuid "fea92237-1fef-4da2-b052-37263130682f")
-	)
-	(symbol
-		(lib_id "Controller_Comp:ATTINY85V-10SU")
-		(at 99.06 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0062d184-83f0-484f-8ab3-c9a103f9618a")
-		(property "Reference" "IC1"
-			(at 151.765 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ATTINY85V-10SU"
-			(at 151.765 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Controller_Footprints:SOIC127P798X216-8N"
-			(at 214.63 136.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/b7d776087f3438c2ffab22c1216558b5.pdf"
-			(at 214.63 236.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "ATTINY85V-10SU, 8 bit AVR Microcontroller 10MHz 8kb Flash, 512B RAM, I2C SPI 8-Pin SOIC"
-			(at 152.908 56.388 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.16"
-			(at 214.63 436.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Microchip"
-			(at 214.63 536.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ATTINY85V-10SU"
-			(at 214.63 636.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "556-ATTINY85V10SU"
-			(at 214.63 736.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY85V-10SU?qs=8jWQYweyg6NQ5xH6egcL8w%3D%3D"
-			(at 214.63 836.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "ATTINY85V-10SU"
-			(at 214.63 936.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/attiny85v-10su/microchip-technology?utm_currency=USD&region=nac"
-			(at 214.63 1036.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eae0ed7e-3ec6-40b9-8752-36e67def5f56")
-		)
-		(pin "4"
-			(uuid "96d0409a-1330-4718-911f-02a23571a3f3")
-		)
-		(pin "7"
-			(uuid "70099e8b-489e-409b-abe6-3eb585644b2a")
-		)
-		(pin "5"
-			(uuid "be2f4050-c5a2-43b0-a681-d5efdf4a2b2f")
-		)
-		(pin "1"
-			(uuid "b561b656-23de-4ae1-9f5f-c74ad117f06e")
-		)
-		(pin "3"
-			(uuid "80a7f347-2e6a-4abe-a7a8-a18cfbfd7d9e")
-		)
-		(pin "8"
-			(uuid "1f822147-b13f-4232-a9a0-b6787d516ded")
-		)
-		(pin "6"
-			(uuid "8b9e4e36-f156-4415-9a47-602edf83a03a")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "IC1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
@@ -4300,6 +4139,163 @@
 			(project "controller_pcb"
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "S5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Controller_Comp:ATTINY85-20PU")
+		(at 99.06 41.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d490fcd2-26c6-498a-8531-2755b9e7fba9")
+		(property "Reference" "IC2"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ATTINY85-20PU"
+			(at 157.48 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Controller_Footprints:DIP781W56P254L950H533Q8N"
+			(at 212.09 136.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ATTINY85-20PU.pdf"
+			(at 212.09 236.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MICROCHIP - ATTINY85-20PU - MICROCONTROLLER MCU, 8 BIT, ATTINY, 20MHZ, DIP-8"
+			(at 99.06 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.334"
+			(at 212.09 436.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Microchip"
+			(at 212.09 536.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ATTINY85-20PU"
+			(at 212.09 636.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "556-ATTINY85-20PU"
+			(at 212.09 736.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/ATTINY85-20PU?qs=8jWQYweyg6NCiiaOb5GI9Q%3D%3D"
+			(at 212.09 836.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ATTINY85-20PU"
+			(at 212.09 936.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/attiny85-20pu/microchip-technology?utm_currency=USD&region=nac"
+			(at 212.09 1036.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "979969cd-d222-473d-a19a-bc68945f1740")
+		)
+		(pin "4"
+			(uuid "d8e23497-3333-4149-b38f-fdd55288480f")
+		)
+		(pin "6"
+			(uuid "d7879b53-1dd0-4238-95d8-90585612038d")
+		)
+		(pin "8"
+			(uuid "1d257742-b3d4-4be3-b338-5e9ba5d4aa13")
+		)
+		(pin "5"
+			(uuid "c4aa9dd3-8be4-4f5a-9bdf-f66602842469")
+		)
+		(pin "7"
+			(uuid "5ded12b0-fbd8-414d-979f-9850c6bfe07b")
+		)
+		(pin "3"
+			(uuid "6f0b58e5-a0f9-4004-a003-86d3aec93561")
+		)
+		(pin "1"
+			(uuid "3529a26a-79c7-4d0a-bfa0-026e3f182787")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "IC2")
 					(unit 1)
 				)
 			)

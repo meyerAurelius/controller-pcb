@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ATTINY85V-10SU
-D ATTINY85V-10SU, 8 bit AVR Microcontroller 10MHz 8kb Flash, 512B RAM, I2C SPI 8-Pin SOIC
-K
-F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/b7d776087f3438c2ffab22c1216558b5.pdf
-$ENDCMP
-#
-#End Doc Library
