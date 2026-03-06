@@ -1,13 +1,13 @@
-PCBNEW-LibModule-V1  2026-03-05 01:35:57
+PCBNEW-LibModule-V1  2026-03-06 04:43:01
 # encoding utf-8
 Units mm
 $INDEX
 SOT229P700X180-4N
 $EndINDEX
 $MODULE SOT229P700X180-4N
-Po 0 0 0 15 69a8ddfd 00000000 ~~
+Po 0 0 0 15 69aa5b55 00000000 ~~
 Li SOT229P700X180-4N
-Cd sot-223
+Cd 3 Lead SOT-223 Plastic Package
 Kw Integrated Circuit
 Sc 0
 At SMD
