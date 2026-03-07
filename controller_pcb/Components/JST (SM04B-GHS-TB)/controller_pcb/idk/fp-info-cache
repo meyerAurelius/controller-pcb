@@ -1,4 +1,4 @@
-27242061655134407
+27231424370058262
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57659,13 +57659,6 @@ Switch
 4
 4
 Controller_Footprints
-BajaLogo2
-
-
-0
-0
-0
-Controller_Footprints
 CAPC2012X140N
 CL21B
 Capacitor
@@ -57687,13 +57680,6 @@ Connector
 8
 8
 Controller_Footprints
-ERJ6ENF1000V
-ERJ6EN
-Resistor
-0
-2
-2
-Controller_Footprints
 ERJP06D1000V
 ERJP06(0805)
 Resistor
@@ -57707,34 +57693,6 @@ Capacitor
 0
 2
 2
-Controller_Footprints
-LEDC2012X70N
-150080RS75000
-LED
-0
-2
-2
-Controller_Footprints
-SM03BGHSTBLFSN
-SM03B-GHS-TB(LF)(SN)-1
-Connector
-0
-5
-5
-Controller_Footprints
-SM04B-GHS-TB
-SM04B-GHS-TB
-Connector
-0
-6
-6
-Controller_Footprints
-SOT95P237X112-3N
-SOT-23 (TO-236)
-MOSFET (P-Channel)
-0
-3
-3
 Controller_Footprints
 SOT229P700X180-4N
 3 Lead SOT-223 Plastic Package

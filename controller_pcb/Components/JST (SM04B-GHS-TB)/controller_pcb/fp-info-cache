@@ -1,4 +1,4 @@
-27242061655134407
+27240288735502668
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57658,13 +57658,6 @@ Switch
 0
 4
 4
-Controller_Footprints
-BajaLogo2
-
-
-0
-0
-0
 Controller_Footprints
 CAPC2012X140N
 CL21B

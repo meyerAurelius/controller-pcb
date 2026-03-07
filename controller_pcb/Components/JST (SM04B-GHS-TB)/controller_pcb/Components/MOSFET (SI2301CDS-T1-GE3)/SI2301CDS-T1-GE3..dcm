@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SI2301CDS-T1-GE3.
+D MOSFET 20V 3.1A 1.6W 112 mohms @ 4.5V
+K
+F https://www.vishay.com/doc?68741
+$ENDCMP
+#
+#End Doc Library
