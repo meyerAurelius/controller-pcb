@@ -1,4 +1,4 @@
-27238515824990811
+27240288735502668
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57714,6 +57714,13 @@ Connector
 0
 5
 5
+Controller_Footprints
+SM04B-GHS-TB
+SM04B-GHS-TB
+Connector
+0
+6
+6
 Controller_Footprints
 SOT95P237X112-3N
 SOT-23 (TO-236)

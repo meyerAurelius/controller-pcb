@@ -5,6 +5,113 @@
 	(uuid "35628871-c2d7-47c8-b610-2ce05008c7f9")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Controller_Comp:150080RS75000"
 			(pin_names
 				(hide yes)
@@ -2056,12 +2163,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Controller_Comp:SM03B-GHS-TB_LF__SN_"
+		(symbol "Controller_Comp:SM04B-GHS-TB_LF__SN_"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 21.59 7.62 0)
+				(at 16.51 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2069,8 +2176,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SM03B-GHS-TB_LF__SN_"
-				(at 21.59 5.08 0)
+			(property "Value" "SM04B-GHS-TB_LF__SN_"
+				(at 16.51 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2078,18 +2185,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "Controller_Footprints:SM03BGHSTBLFSN"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-				(at 21.59 -194.92 0)
+			(property "Footprint" "SM04B-GHS-TB"
+				(at 16.51 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2098,8 +2195,18 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "JST GH Series, 1.25mm Pitch 3 Way Right Angle PCB Header, Solder Termination, 1A"
-				(at -1.524 -10.668 0)
+			(property "Datasheet" "http://uk.rs-online.com/web/p/products/7521797"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
+				(at 0.254 -8.128 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2107,8 +2214,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "4.35"
-				(at 21.59 -394.92 0)
+			(property "Height" ""
+				(at 16.51 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2118,7 +2225,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-				(at 21.59 -494.92 0)
+				(at 16.51 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2127,8 +2234,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SM03B-GHS-TB(LF)(SN)"
-				(at 21.59 -594.92 0)
+			(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
+				(at 16.51 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2138,7 +2245,7 @@
 				)
 			)
 			(property "Mouser Part Number" "N/A"
-				(at 21.59 -694.92 0)
+				(at 16.51 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2147,8 +2254,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM03B-GHS-TBLFSN?qs=QpmGXVUTftFznLWQEubYxw%3D%3D"
-				(at 21.59 -794.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
+				(at 16.51 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2157,8 +2264,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "SM03B-GHS-TB(LF)(SN)"
-				(at 21.59 -894.92 0)
+			(property "Arrow Part Number" "SM04B-GHS-TB(LF)(SN)"
+				(at 16.51 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2167,8 +2274,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm03b-ghs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
-				(at 21.59 -994.92 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm04b-ghs-tb-lf-sn-/jst-manufacturing?region=europe"
+				(at 16.51 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2177,10 +2284,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "SM03B-GHS-TB_LF__SN__1_1"
+			(symbol "SM04B-GHS-TB_LF__SN__1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 20.32 -7.62)
+					(end 15.24 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2191,42 +2298,6 @@
 				)
 				(pin passive line
 					(at 0 0 0)
-					(length 5.08)
-					(name "MP_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "MP_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
 					(length 5.08)
 					(name "1"
 						(effects
@@ -2244,7 +2315,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -2.54 180)
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "2"
 						(effects
@@ -2262,7 +2333,7 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -5.08 180)
+					(at 20.32 0 180)
 					(length 5.08)
 					(name "3"
 						(effects
@@ -2272,6 +2343,24 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2385,6 +2474,12 @@
 		)
 	)
 	(junction
+		(at 256.54 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00c0d016-d2a4-4591-8594-bd577788d73a")
+	)
+	(junction
 		(at 233.68 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2468,6 +2563,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 22.86) (xy 245.11 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "096c6b4e-5954-481d-9594-416b13b22ab6")
+	)
+	(wire
+		(pts
+			(xy 204.47 22.86) (xy 204.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab9ae22-d677-4a04-850a-979bc7ae5c91")
+	)
+	(wire
+		(pts
 			(xy 232.41 81.28) (xy 243.84 81.28)
 		)
 		(stroke
@@ -2475,6 +2590,16 @@
 			(type default)
 		)
 		(uuid "0e163026-3e03-4156-b879-2a10240cb1d4")
+	)
+	(wire
+		(pts
+			(xy 256.54 34.29) (xy 256.54 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f251061-cc34-4165-9d01-1241c8a1066c")
 	)
 	(wire
 		(pts
@@ -2538,6 +2663,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 27.94) (xy 256.54 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27197132-f245-4406-a2ba-69cef32ab5f0")
+	)
+	(wire
+		(pts
 			(xy 90.17 57.15) (xy 90.17 62.23)
 		)
 		(stroke
@@ -2555,6 +2690,16 @@
 			(type default)
 		)
 		(uuid "2d89a4dd-1ebc-4e5b-9e03-a493af01ad60")
+	)
+	(wire
+		(pts
+			(xy 280.67 34.29) (xy 256.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bd5a44-c423-4b00-be0d-f78fcf41c622")
 	)
 	(wire
 		(pts
@@ -2628,6 +2773,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 45.72) (xy 278.13 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4085b29b-fb0e-423d-bdf3-b69263a2fff7")
+	)
+	(wire
+		(pts
 			(xy 129.54 72.39) (xy 280.67 72.39)
 		)
 		(stroke
@@ -2648,6 +2803,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 72.39) (xy 280.67 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59863329-0eee-430f-8983-1b8ef79c4a2e")
+	)
+	(wire
+		(pts
 			(xy 87.63 50.8) (xy 87.63 54.61)
 		)
 		(stroke
@@ -2655,16 +2820,6 @@
 			(type default)
 		)
 		(uuid "5aca13cf-a1b5-4bc6-8456-661eaaa9cee0")
-	)
-	(wire
-		(pts
-			(xy 278.13 30.48) (xy 278.13 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc689fc-39e0-41b2-8891-382a28ae4b2c")
 	)
 	(wire
 		(pts
@@ -2768,6 +2923,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 27.94) (xy 256.54 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e4ba6a9-c784-4476-8da0-798fa02f9a8a")
+	)
+	(wire
+		(pts
 			(xy 199.39 83.82) (xy 205.74 83.82)
 		)
 		(stroke
@@ -2858,16 +3023,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 27.94) (xy 280.67 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96c1d38e-c210-43dc-ae11-c3d9d588a29d")
-	)
-	(wire
-		(pts
 			(xy 158.75 130.81) (xy 158.75 62.23)
 		)
 		(stroke
@@ -2938,13 +3093,13 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 45.72) (xy 238.76 45.72)
+			(xy 278.13 22.86) (xy 276.86 22.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b60fac47-bea5-4706-8245-fb832a6ab683")
+		(uuid "bb3bbe9e-90ca-4d81-847e-a6126b6d9950")
 	)
 	(wire
 		(pts
@@ -2975,6 +3130,16 @@
 			(type default)
 		)
 		(uuid "bfca5046-8c57-45f2-a1ed-d9e06fdacfec")
+	)
+	(wire
+		(pts
+			(xy 278.13 45.72) (xy 278.13 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0628a7b-1069-4efc-a530-7314bfab675f")
 	)
 	(wire
 		(pts
@@ -3078,16 +3243,6 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 27.94) (xy 278.13 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d90dc7-cbaa-4c9f-8b3d-bca4283ea3c1")
-	)
-	(wire
-		(pts
 			(xy 200.66 154.94) (xy 213.36 154.94)
 		)
 		(stroke
@@ -3165,155 +3320,6 @@
 			(type default)
 		)
 		(uuid "fe671167-0d62-4c1d-9dc6-424294c24773")
-	)
-	(symbol
-		(lib_id "Controller_Comp:SM03B-GHS-TB_LF__SN_")
-		(at 252.73 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0378e535-437e-4ef0-b334-7ed9b75b184c")
-		(property "Reference" "J2"
-			(at 265.43 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM03B-GHS-TB_LF__SN_"
-			(at 265.43 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Controller_Footprints:SM03BGHSTBLFSN"
-			(at 274.32 120.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 274.32 220.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST GH Series, 1.25mm Pitch 3 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 251.206 36.068 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.35"
-			(at 274.32 420.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 274.32 520.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SM03B-GHS-TB(LF)(SN)"
-			(at 274.32 620.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 274.32 720.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM03B-GHS-TBLFSN?qs=QpmGXVUTftFznLWQEubYxw%3D%3D"
-			(at 274.32 820.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SM03B-GHS-TB(LF)(SN)"
-			(at 274.32 920.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm03b-ghs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
-			(at 274.32 1020.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "70ff2c66-12f7-491e-b670-3536b61f709f")
-		)
-		(pin "2"
-			(uuid "36ace1a5-79bc-43f4-9f91-a58d62933ff7")
-		)
-		(pin "3"
-			(uuid "0b99295b-f0b4-428a-aa4c-189850707860")
-		)
-		(pin "4"
-			(uuid "1d860587-5f8a-4baf-848f-5c1fb630613e")
-		)
-		(pin "1"
-			(uuid "261074d2-0997-4d76-8540-fb285b5d73cb")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Controller_Comp:ERJP06F1002V")
@@ -3449,6 +3455,152 @@
 			(project "controller_pcb"
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Controller_Comp:SM04B-GHS-TB_LF__SN_")
+		(at 256.54 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24cbf267-056f-4e63-a9eb-8cffd6bbc026")
+		(property "Reference" "J2"
+			(at 266.7 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SM04B-GHS-TB_LF__SN_"
+			(at 266.7 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SM04B-GHS-TB"
+			(at 273.05 117.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7521797"
+			(at 273.05 217.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
+			(at 256.794 30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 273.05 417.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 273.05 517.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
+			(at 273.05 617.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "N/A"
+			(at 273.05 717.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
+			(at 273.05 817.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "SM04B-GHS-TB(LF)(SN)"
+			(at 273.05 917.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm04b-ghs-tb-lf-sn-/jst-manufacturing?region=europe"
+			(at 273.05 1017.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "418f6850-aecd-4cdf-bde2-24df2106a855")
+		)
+		(pin "1"
+			(uuid "30c679f7-4d06-436c-89df-b8a358972de7")
+		)
+		(pin "2"
+			(uuid "69e36e0c-2168-4315-b401-e37e4d7f60e3")
+		)
+		(pin "3"
+			(uuid "3ff8d165-d510-4c27-adf3-62ecb5e17d68")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5962,6 +6114,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 256.54 22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6432a09-47e6-49c0-9363-8c929173d5dd")
+		(property "Reference" "#PWR011"
+			(at 250.19 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 255.778 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 256.54 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97c43764-f575-48b6-a836-b2740c91efa7")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Controller_Comp:B3F-1050")
 		(at 205.74 83.82 0)
 		(unit 1)
@@ -6623,6 +6841,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 204.47 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da7681c0-4f31-460d-a475-0e479f99d913")
+		(property "Reference" "TP1"
+			(at 207.01 18.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 207.01 20.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
+			(at 209.55 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 204.47 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61dd7d7b-32b1-43e5-a518-5f6a47ec50ab")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Controller_Comp:B3F-1050")
 		(at 213.36 154.94 0)
 		(unit 1)
@@ -6769,7 +7054,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 245.11 22.86 90)
+		(at 243.84 22.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6778,7 +7063,7 @@
 		(fields_autoplaced yes)
 		(uuid "de22f735-ca72-4c3f-ad5a-006368f7be6c")
 		(property "Reference" "#PWR07"
-			(at 251.46 22.86 0)
+			(at 250.19 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +7072,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 22.8599 90)
+			(at 247.65 22.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6796,7 +7081,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 22.86 0)
+			(at 243.84 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6805,7 +7090,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 22.86 0)
+			(at 243.84 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6814,7 +7099,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 22.86 0)
+			(at 243.84 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6968,73 +7253,6 @@
 			(project "controller_pcb"
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 278.13 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f5d2fc1c-f106-4447-8039-5df5702cd9d9")
-		(property "Reference" "#PWR011"
-			(at 284.48 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 278.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ce6d2fb6-7bd8-4458-8304-2ae70cc74ba3")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
