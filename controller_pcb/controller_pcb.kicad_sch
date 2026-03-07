@@ -2450,6 +2450,12 @@
 		(color 0 0 0 0)
 		(uuid "e217244c-a3bc-418b-aaa8-0ce3014c3a72")
 	)
+	(junction
+		(at 59.69 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdea2039-463a-4ef9-bdaa-55dad3e8cf04")
+	)
 	(wire
 		(pts
 			(xy 233.68 128.27) (xy 237.49 128.27)
@@ -2489,6 +2495,16 @@
 			(type default)
 		)
 		(uuid "1a505726-7421-45cc-9adb-9539fde8a1b4")
+	)
+	(wire
+		(pts
+			(xy 59.69 31.75) (xy 59.69 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac6b164-5666-462d-a2d7-eb08c0ae5983")
 	)
 	(wire
 		(pts
@@ -2772,6 +2788,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 31.75) (xy 41.91 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "881766f5-be74-42da-8988-eecf5e1db625")
+	)
+	(wire
+		(pts
 			(xy 99.06 27.94) (xy 59.69 27.94)
 		)
 		(stroke
@@ -2972,7 +2998,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 27.94) (xy 59.69 39.37)
+			(xy 59.69 27.94) (xy 59.69 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3946,6 +3972,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 24.13 31.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4781f7cd-57ee-4764-9087-95135b9ede46")
+		(property "Reference" "#PWR08"
+			(at 17.78 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 20.32 31.7499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 24.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 24.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 24.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb1d21fd-0096-45ae-bae0-4f53f3b04f64")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Controller_Comp:CL21B106KOQNNNE")
 		(at 187.96 154.94 0)
 		(unit 1)
@@ -4517,7 +4610,7 @@
 	)
 	(symbol
 		(lib_id "Controller_Comp:ERJ-6ENF2200V")
-		(at 100.33 143.51 0)
+		(at 41.91 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4526,7 +4619,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b012e02-d347-444c-b639-c06ad0b9d5dd")
 		(property "Reference" "R6"
-			(at 109.22 137.16 0)
+			(at 50.8 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4534,7 +4627,7 @@
 			)
 		)
 		(property "Value" "ERJ-6ENF2200V"
-			(at 109.22 139.7 0)
+			(at 50.8 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4542,7 +4635,7 @@
 			)
 		)
 		(property "Footprint" "Controller_Footprints:ERJ6ENF1000V"
-			(at 114.3 239.7 0)
+			(at 55.88 127.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +4645,7 @@
 			)
 		)
 		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"
-			(at 114.3 339.7 0)
+			(at 55.88 227.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4562,7 +4655,7 @@
 			)
 		)
 		(property "Description" "Precision Thick Film Chip Resistor, 0805, 0.125W"
-			(at 101.346 146.558 0)
+			(at 42.926 34.798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4571,7 +4664,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 114.3 539.7 0)
+			(at 55.88 427.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,7 +4674,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 114.3 639.7 0)
+			(at 55.88 527.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4684,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ-6ENF2200V"
-			(at 114.3 739.7 0)
+			(at 55.88 627.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4601,7 +4694,7 @@
 			)
 		)
 		(property "Mouser Part Number" "667-ERJ-6ENF2200V"
-			(at 114.3 839.7 0)
+			(at 55.88 727.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4704,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-6ENF2200V?qs=50QC8w71jAu9tJGxfTXkOw%3D%3D"
-			(at 114.3 939.7 0)
+			(at 55.88 827.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4621,7 +4714,7 @@
 			)
 		)
 		(property "Arrow Part Number" "ERJ-6ENF2200V"
-			(at 114.3 1039.7 0)
+			(at 55.88 927.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +4724,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/erj-6enf2200v/panasonic?region=nac"
-			(at 114.3 1139.7 0)
+			(at 55.88 1027.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5726,7 @@
 	)
 	(symbol
 		(lib_id "Controller_Comp:150080RS75000")
-		(at 130.81 143.51 0)
+		(at 24.13 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5642,7 +5735,7 @@
 		(fields_autoplaced yes)
 		(uuid "a15eb3a4-9e4f-4430-8071-d35b85293d62")
 		(property "Reference" "LED1"
-			(at 138.43 133.35 0)
+			(at 31.75 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5650,7 +5743,7 @@
 			)
 		)
 		(property "Value" "150080RS75000"
-			(at 138.43 135.89 0)
+			(at 31.75 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5658,7 +5751,7 @@
 			)
 		)
 		(property "Footprint" "Controller_Footprints:LEDC2012X70N"
-			(at 143.51 237.16 0)
+			(at 36.83 125.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5668,7 +5761,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080RS75000+%28rev1%29.pdf"
-			(at 143.51 337.16 0)
+			(at 36.83 225.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5678,7 +5771,7 @@
 			)
 		)
 		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP"
-			(at 130.81 149.098 0)
+			(at 24.13 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5687,7 +5780,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 143.51 537.16 0)
+			(at 36.83 425.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5697,7 +5790,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 143.51 637.16 0)
+			(at 36.83 525.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +5800,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "150080RS75000"
-			(at 143.51 737.16 0)
+			(at 36.83 625.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5810,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-150080RS75000"
-			(at 143.51 837.16 0)
+			(at 36.83 725.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5820,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D"
-			(at 143.51 937.16 0)
+			(at 36.83 825.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5830,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 143.51 1037.16 0)
+			(at 36.83 925.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5840,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 143.51 1137.16 0)
+			(at 36.83 1025.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6282,6 +6375,73 @@
 			(project ""
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb242821-dc85-4be7-9bbf-c24b311b4f59")
+		(property "Reference" "#PWR011"
+			(at 284.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd23055c-ea90-4631-a4cf-d06ae5357340")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
