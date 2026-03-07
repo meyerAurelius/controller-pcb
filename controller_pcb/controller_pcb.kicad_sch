@@ -2385,16 +2385,34 @@
 		)
 	)
 	(junction
+		(at 233.68 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "161f252d-b394-4b88-a913-0750fffb47f3")
+	)
+	(junction
+		(at 261.62 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25de1f38-09b8-4feb-9a20-04b370129bde")
+	)
+	(junction
 		(at 59.69 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3669b73b-3a9d-41a2-9988-79360400e553")
 	)
 	(junction
-		(at 217.17 48.26)
+		(at 261.62 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "379a3ba1-a4f8-4293-9420-f2bd82b93f31")
+		(uuid "3cca37ed-870c-47b0-a120-371548a4d389")
+	)
+	(junction
+		(at 232.41 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e4fb280-474d-440f-85a7-867543f966c6")
 	)
 	(junction
 		(at 232.41 30.48)
@@ -2409,22 +2427,10 @@
 		(uuid "7ad930c2-e69b-4213-9e54-3891e77ed6e1")
 	)
 	(junction
-		(at 217.17 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88b2b81b-71f9-451c-88f3-fc65b2b06de4")
-	)
-	(junction
 		(at 158.75 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d08220c-39ba-40e3-aee0-d07c4d15bacc")
-	)
-	(junction
-		(at 233.68 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e8c1bf0-44c9-43b5-ae48-b9f065ce0a0a")
 	)
 	(junction
 		(at 87.63 54.61)
@@ -2433,16 +2439,10 @@
 		(uuid "b30023f5-21fc-4bc5-aea7-4bfb4047bf9d")
 	)
 	(junction
-		(at 158.75 68.58)
+		(at 226.06 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c1c67bfa-0ba1-45d2-b6d0-139feaa7b889")
-	)
-	(junction
-		(at 217.17 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7e3b3d1-7ab7-4e87-9295-2dc54b759993")
+		(uuid "dad113ef-2f3a-4026-b62a-42a6c02526d6")
 	)
 	(junction
 		(at 90.17 62.23)
@@ -2458,16 +2458,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 128.27) (xy 237.49 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02257f2b-f4f4-4850-a21e-c2bd11b0820f")
-	)
-	(wire
-		(pts
 			(xy 232.41 30.48) (xy 147.32 30.48)
 		)
 		(stroke
@@ -2478,13 +2468,23 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 154.94) (xy 233.68 128.27)
+			(xy 232.41 81.28) (xy 243.84 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "11926f6f-7163-41b5-bae8-b8047a7e802c")
+		(uuid "0e163026-3e03-4156-b879-2a10240cb1d4")
+	)
+	(wire
+		(pts
+			(xy 261.62 81.28) (xy 261.62 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18221f4e-03d4-48e4-8164-daacd109bd17")
 	)
 	(wire
 		(pts
@@ -2508,16 +2508,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 68.58) (xy 217.17 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bd42ccb-aff6-41f1-9666-5b0cfafafa1d")
-	)
-	(wire
-		(pts
 			(xy 90.17 62.23) (xy 90.17 104.14)
 		)
 		(stroke
@@ -2525,6 +2515,16 @@
 			(type default)
 		)
 		(uuid "1f87f4f4-f9b2-4715-9b8d-b443c21fb700")
+	)
+	(wire
+		(pts
+			(xy 226.06 57.15) (xy 158.75 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2140c1b1-11e7-4fcb-84cd-9c9ae6f9c194")
 	)
 	(wire
 		(pts
@@ -2545,6 +2545,16 @@
 			(type default)
 		)
 		(uuid "2771efa3-a636-4c61-8ed6-921c68432c9e")
+	)
+	(wire
+		(pts
+			(xy 217.17 54.61) (xy 261.62 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d89a4dd-1ebc-4e5b-9e03-a493af01ad60")
 	)
 	(wire
 		(pts
@@ -2578,6 +2588,26 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 68.58) (xy 261.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "393c418d-eb7b-409a-9ab6-072a2cc608ff")
+	)
+	(wire
+		(pts
+			(xy 226.06 68.58) (xy 243.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a64d2d4-20e3-4fb4-a809-253e5d019d83")
+	)
+	(wire
+		(pts
 			(xy 59.69 39.37) (xy 59.69 50.8)
 		)
 		(stroke
@@ -2588,53 +2618,33 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 128.27) (xy 158.75 128.27)
+			(xy 243.84 134.62) (xy 233.68 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "41f36637-b29f-493e-873d-15b9363b13c2")
+		(uuid "3d7c9940-0c07-470f-b505-72592297cd43")
 	)
 	(wire
 		(pts
-			(xy 237.49 128.27) (xy 237.49 68.58)
+			(xy 129.54 72.39) (xy 280.67 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "443dbf73-9291-4563-81ef-07e146abbb79")
+		(uuid "4ce93abb-e08e-47a5-a0b3-42ca36206c9e")
 	)
 	(wire
 		(pts
-			(xy 158.75 128.27) (xy 158.75 68.58)
+			(xy 232.41 81.28) (xy 232.41 59.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e27f39a-4bd0-4c83-b2ec-98120065f22f")
-	)
-	(wire
-		(pts
-			(xy 217.17 39.37) (xy 217.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53fedfd1-ef97-40f8-8645-2f65fe79bcbd")
-	)
-	(wire
-		(pts
-			(xy 217.17 48.26) (xy 217.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56141e3e-76f2-412d-a1d7-6702f2621fbc")
+		(uuid "51bbe148-5802-49e0-80ef-2e8efc16f384")
 	)
 	(wire
 		(pts
@@ -2645,26 +2655,6 @@
 			(type default)
 		)
 		(uuid "5aca13cf-a1b5-4bc6-8456-661eaaa9cee0")
-	)
-	(wire
-		(pts
-			(xy 232.41 109.22) (xy 232.41 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5be2b33e-a3d5-4592-84a0-a2c17e08c4fb")
-	)
-	(wire
-		(pts
-			(xy 158.75 68.58) (xy 199.39 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cafa2d1-c3ea-4a6d-b1ae-8496d97742f9")
 	)
 	(wire
 		(pts
@@ -2695,6 +2685,16 @@
 			(type default)
 		)
 		(uuid "64752331-1e98-436a-b11e-4e2f0ccdd3c7")
+	)
+	(wire
+		(pts
+			(xy 226.06 83.82) (xy 226.06 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ee5e27-7dc3-422a-8d61-08718c2007c6")
 	)
 	(wire
 		(pts
@@ -2778,16 +2778,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 48.26) (xy 161.29 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83a7a98c-7ad6-4bae-b610-35c35024c61a")
-	)
-	(wire
-		(pts
 			(xy 39.37 31.75) (xy 41.91 31.75)
 		)
 		(stroke
@@ -2815,6 +2805,16 @@
 			(type default)
 		)
 		(uuid "8a814bf4-9160-451c-987a-b42475bd4bee")
+	)
+	(wire
+		(pts
+			(xy 232.41 59.69) (xy 158.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c484360-24ee-4e35-b5ae-ae0240e436ee")
 	)
 	(wire
 		(pts
@@ -2858,13 +2858,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 68.58) (xy 158.75 62.23)
+			(xy 280.67 27.94) (xy 280.67 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "947f26f6-a813-494f-b32f-1019f64ed66f")
+		(uuid "96c1d38e-c210-43dc-ae11-c3d9d588a29d")
+	)
+	(wire
+		(pts
+			(xy 158.75 130.81) (xy 158.75 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf9923e-1a9f-424c-ac05-ea0e93647da4")
 	)
 	(wire
 		(pts
@@ -2878,23 +2888,33 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 62.23) (xy 138.43 62.23)
+			(xy 232.41 109.22) (xy 232.41 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a27bae8a-b70b-4a05-807b-3f6437a921ff")
+		(uuid "9f341ebc-8931-4928-9b7f-6475c36fe9ce")
 	)
 	(wire
 		(pts
-			(xy 199.39 58.42) (xy 158.75 58.42)
+			(xy 226.06 68.58) (xy 226.06 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a36acb9b-0a50-4292-9611-179a940ec15e")
+		(uuid "a30ef7c0-bd9b-46d8-8261-249d7dead843")
+	)
+	(wire
+		(pts
+			(xy 261.62 54.61) (xy 261.62 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abd7d399-c61a-4805-991d-595b7a835af9")
 	)
 	(wire
 		(pts
@@ -2905,16 +2925,6 @@
 			(type default)
 		)
 		(uuid "b3230842-cbae-4a79-8f21-1dbac0f9e5be")
-	)
-	(wire
-		(pts
-			(xy 232.41 58.42) (xy 217.17 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3bbe7e6-3e7a-4679-b21d-57385dc692fb")
 	)
 	(wire
 		(pts
@@ -2938,16 +2948,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 48.26) (xy 161.29 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb16be41-166a-4a27-9fb7-a988435be6d3")
-	)
-	(wire
-		(pts
 			(xy 226.06 91.44) (xy 226.06 86.36)
 		)
 		(stroke
@@ -2958,13 +2958,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 57.15) (xy 161.29 57.15)
+			(xy 243.84 90.17) (xy 243.84 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be3c30e7-4ec4-419f-9440-12500e6645a7")
+		(uuid "bf5bbf84-b8e3-4035-8b31-b96c373a6560")
+	)
+	(wire
+		(pts
+			(xy 138.43 59.69) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfca5046-8c57-45f2-a1ed-d9e06fdacfec")
 	)
 	(wire
 		(pts
@@ -2975,6 +2985,16 @@
 			(type default)
 		)
 		(uuid "c077e454-e917-4938-b5ce-337207ead8f4")
+	)
+	(wire
+		(pts
+			(xy 233.68 134.62) (xy 233.68 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c247ab57-6278-4e27-9d0a-997c22f83b03")
 	)
 	(wire
 		(pts
@@ -3028,6 +3048,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 154.94) (xy 233.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db83e0a2-1272-4bb6-ab1e-4955ccd813a1")
+	)
+	(wire
+		(pts
 			(xy 48.26 87.63) (xy 87.63 87.63)
 		)
 		(stroke
@@ -3038,23 +3068,23 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 158.75 59.69)
+			(xy 233.68 130.81) (xy 158.75 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e182a8cb-9791-4167-a2a2-9de631abf5e5")
+		(uuid "e081ecdc-ecd7-429c-ae73-5e7b93b93514")
 	)
 	(wire
 		(pts
-			(xy 226.06 83.82) (xy 226.06 48.26)
+			(xy 280.67 27.94) (xy 278.13 27.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e1a85ed6-854a-429c-9c44-1e24e0155edf")
+		(uuid "e8d90dc7-cbaa-4c9f-8b3d-bca4283ea3c1")
 	)
 	(wire
 		(pts
@@ -3068,13 +3098,13 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 58.42) (xy 217.17 68.58)
+			(xy 129.54 59.69) (xy 129.54 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb85bec5-5734-4b5b-a18c-e600a59d3df2")
+		(uuid "eb6116f4-689e-473a-88fc-4c80fbcd64bc")
 	)
 	(wire
 		(pts
@@ -3085,6 +3115,16 @@
 			(type default)
 		)
 		(uuid "eb8acde7-d5d1-49d1-8e62-ab16bc4430f7")
+	)
+	(wire
+		(pts
+			(xy 217.17 39.37) (xy 217.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed1a602c-7807-4973-92b2-da396cf3bc98")
 	)
 	(wire
 		(pts
@@ -3105,16 +3145,6 @@
 			(type default)
 		)
 		(uuid "f33c6072-21ba-420d-93ae-0d7a260e5f07")
-	)
-	(wire
-		(pts
-			(xy 226.06 48.26) (xy 217.17 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6016a5b-c979-43fa-861d-e70578ee615c")
 	)
 	(wire
 		(pts
@@ -3426,7 +3456,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 97.79 62.23 270)
+		(at 138.43 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3434,7 +3464,7 @@
 		(dnp no)
 		(uuid "27dca914-0c23-4619-8596-3e277ab03aa0")
 		(property "Reference" "#PWR01"
-			(at 91.44 62.23 0)
+			(at 132.08 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3443,7 +3473,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 93.98 62.2299 90)
+			(at 135.89 62.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3452,7 +3482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 62.23 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3461,7 +3491,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 62.23 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3500,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 62.23 0)
+			(at 138.43 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,8 +5338,8 @@
 	)
 	(symbol
 		(lib_id "Controller_Comp:ERJP06F1002V")
-		(at 217.17 68.58 0)
-		(mirror y)
+		(at 243.84 90.17 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5317,7 +5347,7 @@
 		(dnp no)
 		(uuid "933b9ee6-337f-4473-ab4d-14673316d51b")
 		(property "Reference" "R3"
-			(at 208.534 65.532 0)
+			(at 252.476 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5325,7 +5355,7 @@
 			)
 		)
 		(property "Value" "ERJP06F1002V"
-			(at 208.28 64.77 0)
+			(at 252.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5364,7 @@
 			)
 		)
 		(property "Footprint" "Controller_Footprints:ERJP06D1000V"
-			(at 208.28 64.77 0)
+			(at 252.73 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5343,7 +5373,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at 203.2 264.77 0)
+			(at 257.81 -106.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +5383,7 @@
 			)
 		)
 		(property "Description" "Panasonic ERJP06 Series Thick Film Surface Mount Resistor 0805 Case 10k +/-1% 0.5W +/-100ppm/C"
-			(at 207.01 73.152 0)
+			(at 254 85.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +5392,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 203.2 464.77 0)
+			(at 257.81 -306.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5402,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 203.2 564.77 0)
+			(at 257.81 -406.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5412,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJP06F1002V"
-			(at 203.2 664.77 0)
+			(at 257.81 -506.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5392,7 +5422,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 203.2 764.77 0)
+			(at 257.81 -606.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5402,7 +5432,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 203.2 864.77 0)
+			(at 257.81 -706.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +5442,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 203.2 964.77 0)
+			(at 257.81 -806.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5422,7 +5452,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 203.2 1064.77 0)
+			(at 257.81 -906.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5448,7 +5478,7 @@
 	)
 	(symbol
 		(lib_id "Controller_Comp:ERJP06F1002V")
-		(at 199.39 48.26 0)
+		(at 243.84 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5457,7 +5487,7 @@
 		(fields_autoplaced yes)
 		(uuid "9de26c31-ec65-4982-adc6-ca3d68e55ca6")
 		(property "Reference" "R2"
-			(at 208.28 41.91 0)
+			(at 252.73 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5465,7 +5495,7 @@
 			)
 		)
 		(property "Value" "ERJP06F1002V"
-			(at 208.28 44.45 0)
+			(at 252.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5473,7 +5503,7 @@
 			)
 		)
 		(property "Footprint" "Controller_Footprints:ERJP06D1000V"
-			(at 208.28 44.45 0)
+			(at 252.73 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5482,7 +5512,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at 213.36 244.45 0)
+			(at 257.81 264.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5522,7 @@
 			)
 		)
 		(property "Description" "Panasonic ERJP06 Series Thick Film Surface Mount Resistor 0805 Case 10k +/-1% 0.5W +/-100ppm/C"
-			(at 209.55 52.832 0)
+			(at 254 73.152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5531,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 213.36 444.45 0)
+			(at 257.81 464.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5511,7 +5541,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 213.36 544.45 0)
+			(at 257.81 564.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +5551,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJP06F1002V"
-			(at 213.36 644.45 0)
+			(at 257.81 664.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5561,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 213.36 744.45 0)
+			(at 257.81 764.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5541,7 +5571,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 213.36 844.45 0)
+			(at 257.81 864.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5551,7 +5581,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 213.36 944.45 0)
+			(at 257.81 964.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5561,7 +5591,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 213.36 1044.45 0)
+			(at 257.81 1064.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6381,73 +6411,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 278.13 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb242821-dc85-4be7-9bbf-c24b311b4f59")
-		(property "Reference" "#PWR011"
-			(at 284.48 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 281.94 25.3999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 278.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 278.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 278.13 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cd23055c-ea90-4631-a4cf-d06ae5357340")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Controller_Comp:B3F-1050")
 		(at 212.09 109.22 0)
 		(unit 1)
@@ -6873,8 +6836,8 @@
 	)
 	(symbol
 		(lib_id "Controller_Comp:ERJP06F1002V")
-		(at 217.17 58.42 0)
-		(mirror y)
+		(at 243.84 81.28 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6882,7 +6845,7 @@
 		(dnp no)
 		(uuid "ec4db738-f8ce-4198-9f6b-367ed6f11b6b")
 		(property "Reference" "R5"
-			(at 208.28 52.07 0)
+			(at 252.73 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6890,7 +6853,7 @@
 			)
 		)
 		(property "Value" "ERJP06F1002V"
-			(at 208.28 54.61 0)
+			(at 252.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6898,7 +6861,7 @@
 			)
 		)
 		(property "Footprint" "Controller_Footprints:ERJP06D1000V"
-			(at 208.28 54.61 0)
+			(at 252.73 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6907,7 +6870,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf"
-			(at 203.2 254.61 0)
+			(at 257.81 -114.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6917,7 +6880,7 @@
 			)
 		)
 		(property "Description" "Panasonic ERJP06 Series Thick Film Surface Mount Resistor 0805 Case 10k +/-1% 0.5W +/-100ppm/C"
-			(at 207.01 62.992 0)
+			(at 254 76.708 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6926,7 +6889,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 203.2 454.61 0)
+			(at 257.81 -314.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6936,7 +6899,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Panasonic"
-			(at 203.2 554.61 0)
+			(at 257.81 -414.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6946,7 +6909,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJP06F1002V"
-			(at 203.2 654.61 0)
+			(at 257.81 -514.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +6919,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 203.2 754.61 0)
+			(at 257.81 -614.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6966,7 +6929,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 203.2 854.61 0)
+			(at 257.81 -714.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6976,7 +6939,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 203.2 954.61 0)
+			(at 257.81 -814.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +6949,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 203.2 1054.61 0)
+			(at 257.81 -914.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7005,6 +6968,73 @@
 			(project "controller_pcb"
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 278.13 25.4 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5d2fc1c-f106-4447-8039-5df5702cd9d9")
+		(property "Reference" "#PWR011"
+			(at 284.48 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 25.3999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce6d2fb6-7bd8-4458-8304-2ae70cc74ba3")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
