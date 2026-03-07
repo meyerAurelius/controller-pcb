@@ -5,266 +5,6 @@
 	(uuid "35628871-c2d7-47c8-b610-2ce05008c7f9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Controller_Comp:150080RS75000"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "150080RS75000"
-				(at 12.7 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Controller_Footprints:LEDC2012X70N"
-				(at 12.7 -93.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080RS75000+%28rev1%29.pdf"
-				(at 12.7 -193.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP"
-				(at 0 -5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 12.7 -393.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 12.7 -493.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "150080RS75000"
-				(at 12.7 -593.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-150080RS75000"
-				(at 12.7 -693.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D"
-				(at 12.7 -793.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" ""
-				(at 12.7 -893.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" ""
-				(at 12.7 -993.65 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "150080RS75000_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Controller_Comp:AMS1117-5.0"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1170,181 +910,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Controller_Comp:ERJ-6ENF2200V"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 13.97 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "ERJ-6ENF2200V"
-				(at 13.97 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "ERJ6ENF1000V"
-				(at 13.97 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"
-				(at 13.97 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Precision Thick Film Chip Resistor, 0805, 0.125W"
-				(at 1.016 -3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.7"
-				(at 13.97 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 13.97 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "ERJ-6ENF2200V"
-				(at 13.97 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "667-ERJ-6ENF2200V"
-				(at 13.97 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-6ENF2200V?qs=50QC8w71jAu9tJGxfTXkOw%3D%3D"
-				(at 13.97 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "ERJ-6ENF2200V"
-				(at 13.97 -896.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/erj-6enf2200v/panasonic?region=nac"
-				(at 13.97 -996.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "ERJ-6ENF2200V_1_1"
-				(rectangle
-					(start 5.08 1.27)
-					(end 12.7 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Controller_Comp:ERJP06F1002V"
 			(pin_names
 				(hide yes)
@@ -1731,53 +1296,36 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Controller_Comp:SI2301CDS-T1-GE3."
-			(pin_names
+		(symbol "Simulation_SPICE:VDC"
+			(pin_numbers
 				(hide yes)
 			)
+			(pin_names
+				(offset 0.0254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q"
-				(at 11.43 3.81 0)
+			(property "Reference" "V"
+				(at 2.54 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Value" "SI2301CDS-T1-GE3."
-				(at 11.43 1.27 0)
+			(property "Value" "1"
+				(at 2.54 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Controller_Footprints:SOT95P237X112-3N"
-				(at 11.43 -98.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/doc?68741"
-				(at 11.43 -198.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "MOSFET 20V 3.1A 1.6W 112 mohms @ 4.5V"
-				(at -0.508 -13.716 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1785,83 +1333,68 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "1.12"
-				(at 11.43 -398.73 0)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Vishay"
-				(at 11.43 -498.73 0)
+			(property "Description" "Voltage source, DC"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SI2301CDS-T1-GE3."
-				(at 11.43 -598.73 0)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" ""
-				(at 11.43 -698.73 0)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" ""
-				(at 11.43 -798.73 0)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" ""
-				(at 11.43 -898.73 0)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" ""
-				(at 11.43 -998.73 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SI2301CDS-T1-GE3._1_1"
+			(symbol "VDC_0_0"
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 5.08 0)
+						(xy -1.27 0.254) (xy 1.27 0.254)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1870,10 +1403,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 5.08) (xy 5.08 0)
+						(xy -0.762 -0.254) (xy -1.27 -0.254)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1882,10 +1415,10 @@
 				)
 				(polyline
 					(pts
-						(xy 5.842 5.588) (xy 5.842 4.572)
+						(xy 0.254 -0.254) (xy -0.254 -0.254)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1894,293 +1427,29 @@
 				)
 				(polyline
 					(pts
-						(xy 5.842 2.032) (xy 5.842 3.048)
+						(xy 1.27 -0.254) (xy 0.762 -0.254)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.842 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+				(text "+"
+					(at 0 1.905 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
 					)
 				)
-				(polyline
-					(pts
-						(xy 5.842 -0.508) (xy 5.842 0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			)
+			(symbol "VDC_0_1"
 				(circle
-					(center 6.35 2.54)
-					(radius 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 5.842 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 7.62)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 5.842 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 6.604 3.048) (xy 6.604 2.032) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 10.16 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Controller_Comp:SM03B-GHS-TB_LF__SN_"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SM03B-GHS-TB_LF__SN_"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "Controller_Footprints:SM03BGHSTBLFSN"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "JST GH Series, 1.25mm Pitch 3 Way Right Angle PCB Header, Solder Termination, 1A"
-				(at -1.524 -10.668 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "4.35"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SM03B-GHS-TB(LF)(SN)"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "N/A"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM03B-GHS-TBLFSN?qs=QpmGXVUTftFznLWQEubYxw%3D%3D"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "SM03B-GHS-TB(LF)(SN)"
-				(at 21.59 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm03b-ghs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
-				(at 21.59 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SM03B-GHS-TB_LF__SN__1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -7.62)
+					(center 0 0)
+					(radius 2.54)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2189,46 +1458,12 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "VDC_1_1"
 				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "MP_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "MP_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "1"
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2244,9 +1479,9 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "2"
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2254,24 +1489,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2385,6 +1602,12 @@
 		)
 	)
 	(junction
+		(at 146.05 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e662e05-f7f7-4fb1-97a0-f9b2c3ec875a")
+	)
+	(junction
 		(at 59.69 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2395,12 +1618,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "379a3ba1-a4f8-4293-9420-f2bd82b93f31")
-	)
-	(junction
-		(at 232.41 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4eebc106-3328-4dfa-ab90-f6b358e44cb9")
 	)
 	(junction
 		(at 59.69 39.37)
@@ -2459,16 +1676,6 @@
 			(type default)
 		)
 		(uuid "02257f2b-f4f4-4850-a21e-c2bd11b0820f")
-	)
-	(wire
-		(pts
-			(xy 232.41 30.48) (xy 147.32 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03564ec5-7618-409b-9dd1-da66e50a8160")
 	)
 	(wire
 		(pts
@@ -2582,6 +1789,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 35.56) (xy 146.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4271425c-25e2-4a51-bc4b-c8796ec60c3f")
+	)
+	(wire
+		(pts
 			(xy 237.49 128.27) (xy 237.49 68.58)
 		)
 		(stroke
@@ -2652,16 +1869,6 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 30.48) (xy 278.13 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cc689fc-39e0-41b2-8891-382a28ae4b2c")
-	)
-	(wire
-		(pts
 			(xy 87.63 111.76) (xy 87.63 106.68)
 		)
 		(stroke
@@ -2692,16 +1899,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 30.48) (xy 147.32 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7010fb71-be14-4a65-9ecd-8b2c8f3c2bd0")
-	)
-	(wire
-		(pts
 			(xy 77.47 62.23) (xy 90.17 62.23)
 		)
 		(stroke
@@ -2729,16 +1926,6 @@
 			(type default)
 		)
 		(uuid "74527c84-61a9-48a2-bdcb-e58fb8ec2129")
-	)
-	(wire
-		(pts
-			(xy 232.41 22.86) (xy 232.41 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "767a0c20-b8fd-4719-88ba-469d59d0e676")
 	)
 	(wire
 		(pts
@@ -2872,16 +2059,6 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 30.48) (xy 232.41 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3230842-cbae-4a79-8f21-1dbac0f9e5be")
-	)
-	(wire
-		(pts
 			(xy 232.41 58.42) (xy 217.17 58.42)
 		)
 		(stroke
@@ -2892,6 +2069,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 24.13) (xy 146.05 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b47f8736-9a54-407b-bb9e-9659082b6bfb")
+	)
+	(wire
+		(pts
 			(xy 59.69 39.37) (xy 158.75 39.37)
 		)
 		(stroke
@@ -2899,16 +2086,6 @@
 			(type default)
 		)
 		(uuid "b5dc3e35-2d53-4c83-b35c-14e2452dd67e")
-	)
-	(wire
-		(pts
-			(xy 278.13 45.72) (xy 238.76 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b60fac47-bea5-4706-8245-fb832a6ab683")
 	)
 	(wire
 		(pts
@@ -2942,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 35.56) (xy 147.32 35.56)
+			(xy 147.32 35.56) (xy 146.05 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2979,16 +2156,6 @@
 			(type default)
 		)
 		(uuid "cf0241c8-50a8-4904-b25c-980f26caa2b1")
-	)
-	(wire
-		(pts
-			(xy 231.14 40.64) (xy 226.06 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1a7578c-84dd-429a-b36f-2be958dfce18")
 	)
 	(wire
 		(pts
@@ -3111,53 +2278,32 @@
 		(uuid "fe671167-0d62-4c1d-9dc6-424294c24773")
 	)
 	(symbol
-		(lib_id "Controller_Comp:SM03B-GHS-TB_LF__SN_")
-		(at 252.73 25.4 0)
+		(lib_id "Simulation_SPICE:VDC")
+		(at 152.4 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0378e535-437e-4ef0-b334-7ed9b75b184c")
-		(property "Reference" "J2"
-			(at 265.43 17.78 0)
+		(uuid "195dd3b5-a7fb-426c-9f8b-3530eaa6da97")
+		(property "Reference" "V1"
+			(at 151.384 30.988 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SM03B-GHS-TB_LF__SN_"
-			(at 265.43 20.32 0)
+		(property "Value" "1"
+			(at 152.2702 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Controller_Footprints:SM03BGHSTBLFSN"
-			(at 274.32 120.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.jst-mfg.com/product/pdf/eng/eGH.pdf"
-			(at 274.32 220.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST GH Series, 1.25mm Pitch 3 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 251.206 36.068 0)
+		(property "Footprint" ""
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3165,95 +2311,62 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "4.35"
-			(at 274.32 420.32 0)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 274.32 520.32 0)
+		(property "Description" "Voltage source, DC"
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SM03B-GHS-TB(LF)(SN)"
-			(at 274.32 620.32 0)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "N/A"
-			(at 274.32 720.32 0)
+		(property "Sim.Type" "DC"
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM03B-GHS-TBLFSN?qs=QpmGXVUTftFznLWQEubYxw%3D%3D"
-			(at 274.32 820.32 0)
+		(property "Sim.Device" "V"
+			(at 152.4 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify left)
 				(hide yes)
 			)
-		)
-		(property "Arrow Part Number" "SM03B-GHS-TB(LF)(SN)"
-			(at 274.32 920.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm03b-ghs-tb-lf-sn/jst-manufacturing?utm_currency=USD&region=europe"
-			(at 274.32 1020.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "70ff2c66-12f7-491e-b670-3536b61f709f")
 		)
 		(pin "2"
-			(uuid "36ace1a5-79bc-43f4-9f91-a58d62933ff7")
-		)
-		(pin "3"
-			(uuid "0b99295b-f0b4-428a-aa4c-189850707860")
-		)
-		(pin "4"
-			(uuid "1d860587-5f8a-4baf-848f-5c1fb630613e")
+			(uuid "7eee3903-1ba0-4124-816f-e6f648277ef2")
 		)
 		(pin "1"
-			(uuid "261074d2-0997-4d76-8540-fb285b5d73cb")
+			(uuid "115a4321-8f9c-43b5-888c-7e31164d86dd")
 		)
 		(instances
 			(project ""
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "J2")
+					(reference "V1")
 					(unit 1)
 				)
 			)
@@ -3605,6 +2718,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 157.48 35.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a774f45-cc93-43b0-8306-d9b270fa3b40")
+		(property "Reference" "#PWR07"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 35.5599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 157.48 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a5324a3d-7429-4349-97a4-0d575fd15e42")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Controller_Comp:CL21B106KOQNNNE")
 		(at 186.69 83.82 0)
 		(unit 1)
@@ -3739,6 +2919,73 @@
 			(project "controller_pcb"
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 24.13 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33cf116c-b87c-4c1c-b1fc-a62056b134a0")
+		(property "Reference" "#PWR08"
+			(at 165.1 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 24.1299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66caddda-09fa-4a62-b8c6-9ed38ca79988")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4086,150 +3333,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Controller_Comp:SI2301CDS-T1-GE3.")
-		(at 231.14 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52000a75-3639-48dc-b98d-836638fffc8b")
-		(property "Reference" "Q1"
-			(at 242.57 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SI2301CDS-T1-GE3."
-			(at 234.696 57.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Controller_Footprints:SOT95P237X112-3N"
-			(at 242.57 139.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?68741"
-			(at 242.57 239.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "MOSFET 20V 3.1A 1.6W 112 mohms @ 4.5V"
-			(at 230.632 54.356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.12"
-			(at 242.57 439.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 242.57 539.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SI2301CDS-T1-GE3."
-			(at 242.57 639.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 242.57 739.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 242.57 839.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 242.57 939.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 242.57 1039.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eca229bc-0195-4b5a-97f2-bfbb27f2d01c")
-		)
-		(pin "2"
-			(uuid "fb09f56b-fae8-4851-9c9e-45c662b713d8")
-		)
-		(pin "3"
-			(uuid "091ec3d0-c9a2-4c1b-af19-464e35dc00f5")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Controller_Comp:CL21B106KOQNNNE")
 		(at 186.69 109.22 0)
 		(unit 1)
@@ -4516,148 +3619,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Controller_Comp:ERJ-6ENF2200V")
-		(at 100.33 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6b012e02-d347-444c-b639-c06ad0b9d5dd")
-		(property "Reference" "R6"
-			(at 109.22 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ERJ-6ENF2200V"
-			(at 109.22 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Controller_Footprints:ERJ6ENF1000V"
-			(at 114.3 239.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C84.pdf"
-			(at 114.3 339.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Precision Thick Film Chip Resistor, 0805, 0.125W"
-			(at 101.346 146.558 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 114.3 539.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 114.3 639.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ-6ENF2200V"
-			(at 114.3 739.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-ERJ-6ENF2200V"
-			(at 114.3 839.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-6ENF2200V?qs=50QC8w71jAu9tJGxfTXkOw%3D%3D"
-			(at 114.3 939.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "ERJ-6ENF2200V"
-			(at 114.3 1039.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/erj-6enf2200v/panasonic?region=nac"
-			(at 114.3 1139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eab25795-3139-4ee4-bf3d-434cbde489b4")
-		)
-		(pin "2"
-			(uuid "f28571d2-5555-4aa0-9958-20cfc9b0e0e9")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Controller_Comp:GRM31CR61A107MEA8L")
-		(at 232.41 22.86 0)
+		(at 146.05 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4666,7 +3629,7 @@
 		(fields_autoplaced yes)
 		(uuid "7071076e-0ceb-45d9-ba34-bf8be9c40584")
 		(property "Reference" "C6"
-			(at 238.76 15.24 0)
+			(at 152.4 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +3637,7 @@
 			)
 		)
 		(property "Value" "GRM31CR61A107MEA8L"
-			(at 238.76 17.78 0)
+			(at 152.4 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +3645,7 @@
 			)
 		)
 		(property "Footprint" "GRM31x"
-			(at 241.3 119.05 0)
+			(at 154.94 120.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +3655,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CR61A107MEA8-01A.pdf"
-			(at 241.3 219.05 0)
+			(at 154.94 220.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +3665,7 @@
 			)
 		)
 		(property "Description" "MLCC, 1206"
-			(at 239.014 26.924 0)
+			(at 152.654 28.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4711,7 +3674,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at 241.3 419.05 0)
+			(at 154.94 420.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4721,7 +3684,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 241.3 519.05 0)
+			(at 154.94 520.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +3694,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM31CR61A107MEA8L"
-			(at 241.3 619.05 0)
+			(at 154.94 620.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,7 +3704,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM31CR61A107MA8L"
-			(at 241.3 719.05 0)
+			(at 154.94 720.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4751,7 +3714,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM31CR61A107MEA8L?qs=hd1VzrDQEGidurXiDTJOCg%3D%3D"
-			(at 241.3 819.05 0)
+			(at 154.94 820.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4761,7 +3724,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM31CR61A107MEA8L"
-			(at 241.3 919.05 0)
+			(at 154.94 920.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +3734,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm31cr61a107mea8l/murata-manufacturing?utm_currency=USD&region=europe"
-			(at 241.3 1019.05 0)
+			(at 154.94 1020.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5632,146 +4595,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Controller_Comp:150080RS75000")
-		(at 130.81 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a15eb3a4-9e4f-4430-8071-d35b85293d62")
-		(property "Reference" "LED1"
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "150080RS75000"
-			(at 138.43 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Controller_Footprints:LEDC2012X70N"
-			(at 143.51 237.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/download/Download_3D_150080RS75000+%28rev1%29.pdf"
-			(at 143.51 337.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "WL-SMCW SMT Mono-Color Chip LED Waterclear 0805, Red Typ.(@20mA): 625nm, 150mcd, 2.0V, 140 AlInGaP"
-			(at 130.81 149.098 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.7"
-			(at 143.51 537.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 143.51 637.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "150080RS75000"
-			(at 143.51 737.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-150080RS75000"
-			(at 143.51 837.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/150080RS75000?qs=LlUlMxKIyB2jdCo7bnfgew%3D%3D"
-			(at 143.51 937.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 143.51 1037.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 143.51 1137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da1b3c36-1c2b-4a86-9f60-1ee0eacde854")
-		)
-		(pin "1"
-			(uuid "1ed8dd54-daa6-4cc7-bd32-1d60ede836b3")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "LED1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 67.31 83.82 270)
 		(unit 1)
@@ -6433,73 +5256,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 226.06 40.64 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d80dec23-4d1d-4a86-b505-1a542ad38de1")
-		(property "Reference" "#PWR010"
-			(at 219.71 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 222.25 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 226.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 226.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 226.06 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7910b923-d388-4549-9677-f077f14daeb0")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Controller_Comp:B3F-1050")
 		(at 213.36 154.94 0)
 		(unit 1)
@@ -6639,73 +5395,6 @@
 			(project "controller_pcb"
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "S3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 22.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "de22f735-ca72-4c3f-ad5a-006368f7be6c")
-		(property "Reference" "#PWR07"
-			(at 251.46 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 248.92 22.8599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "446ef9b8-480e-4728-acf1-e6c4e64fe027")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
