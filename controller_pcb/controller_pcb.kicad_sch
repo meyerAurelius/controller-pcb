@@ -2516,6 +2516,12 @@
 		(uuid "4eebc106-3328-4dfa-ab90-f6b358e44cb9")
 	)
 	(junction
+		(at 158.75 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "734e5fb2-60a6-4ab7-a067-7d4db4a07581")
+	)
+	(junction
 		(at 59.69 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2790,6 +2796,16 @@
 			(type default)
 		)
 		(uuid "4ce93abb-e08e-47a5-a0b3-42ca36206c9e")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 158.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d25efff-ebdd-42de-8802-364d81187a6a")
 	)
 	(wire
 		(pts
@@ -3163,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 54.61) (xy 158.75 39.37)
+			(xy 158.75 54.61) (xy 158.75 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3200,6 +3216,16 @@
 			(type default)
 		)
 		(uuid "d1a7578c-84dd-429a-b36f-2be958dfce18")
+	)
+	(wire
+		(pts
+			(xy 171.45 54.61) (xy 176.53 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e51dfd-255c-42ec-97e8-9b23f66f70d5")
 	)
 	(wire
 		(pts
@@ -3240,6 +3266,16 @@
 			(type default)
 		)
 		(uuid "e081ecdc-ecd7-429c-ae73-5e7b93b93514")
+	)
+	(wire
+		(pts
+			(xy 158.75 41.91) (xy 171.45 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2307ba4-3c30-4062-a1ab-7d85126067da")
 	)
 	(wire
 		(pts
@@ -3320,6 +3356,147 @@
 			(type default)
 		)
 		(uuid "fe671167-0d62-4c1d-9dc6-424294c24773")
+	)
+	(symbol
+		(lib_id "Controller_Comp:CL21B106KOQNNNE")
+		(at 171.45 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0df7e39b-6ef5-4395-baa3-b64fc1b8ce9f")
+		(property "Reference" "C7"
+			(at 175.4596 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "CL21B106KOQNNNE"
+			(at 175.4596 49.5299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CAPC2012X140N"
+			(at 267.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/a6a503886ec2e900bbf4e5d6e2f8e8b0.pdf"
+			(at 367.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAP, 10uF, 16V, +/-10%, X7R, 0805"
+			(at 176.022 47.498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 567.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "SAMSUNG"
+			(at 667.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL21B106KOQNNNE"
+			(at 767.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21B106KOQNNNE"
+			(at 867.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samsung-Electro-Mechanics/CL21B106KOQNNNE?qs=349EhDEZ59r8qgLddyW2Yw%3D%3D"
+			(at 967.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "CL21B106KOQNNNE"
+			(at 1067.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl21b106koqnnne/samsung-electro-mechanics?utm_currency=USD&region=europe"
+			(at 1167.64 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23fc47fb-73d8-47e3-b103-428542725308")
+		)
+		(pin "2"
+			(uuid "cd707c07-65b1-4ec7-be07-d8869c7eb56e")
+		)
+		(instances
+			(project "controller_pcb"
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Controller_Comp:ERJP06F1002V")
@@ -3625,7 +3802,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 62.23 90)
+			(at 142.24 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,6 +7291,73 @@
 			(project ""
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 176.53 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e26ed77b-618d-4541-8167-62839e8f21b2")
+		(property "Reference" "#PWR012"
+			(at 182.88 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.34 54.6099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 176.53 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46664228-5157-4f4a-93b1-864e11010f1f")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
