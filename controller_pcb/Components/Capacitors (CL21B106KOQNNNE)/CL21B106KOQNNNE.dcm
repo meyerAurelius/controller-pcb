@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CL21B106KOQNNNE
+D CAP, 10uF, 16V, +/-10%, X7R, 0805
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/a6a503886ec2e900bbf4e5d6e2f8e8b0.pdf
+$ENDCMP
+#
+#End Doc Library

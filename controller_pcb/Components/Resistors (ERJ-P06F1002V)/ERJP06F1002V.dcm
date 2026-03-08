@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERJP06F1002V
+D Panasonic ERJP06 Series Thick Film Surface Mount Resistor 0805 Case 10k +/-1% 0.5W +/-100ppm/C
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C102.pdf
+$ENDCMP
+#
+#End Doc Library

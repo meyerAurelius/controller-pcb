@@ -1,0 +1,171 @@
+(footprint "CAPC2012X140N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CL21B")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "735f22a9-0e8c-451d-84da-a8f9777f761b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC2012X140N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "03c34aa4-d19c-4f18-81d7-8941ffc827a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c650a7bd-3709-4e7e-81e1-e90300b3f179")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9244f4c1-d88b-4182-8415-f99d11de1dd9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.44 -0.87)
+		(end 1.44 -0.87)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "706b0a72-7005-4e94-a4a8-7e47a0e06008")
+	)
+	(fp_line
+		(start -1.44 0.87)
+		(end -1.44 -0.87)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "38d4536d-f514-49ca-bd55-dc90fa619f24")
+	)
+	(fp_line
+		(start 1.44 -0.87)
+		(end 1.44 0.87)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ef0a9fa6-f034-4a96-8a2c-82251e0445ae")
+	)
+	(fp_line
+		(start 1.44 0.87)
+		(end -1.44 0.87)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b98bc099-8453-4f4e-bda8-24f0272ddb6f")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b52782df-24b7-401f-90fb-8c407aca2ace")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e11ebd65-b575-402b-b477-cb6237e32767")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edab76fe-86be-4ab4-bd06-8f63faf30e1e")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c7ade5c8-173f-4979-ace1-7e619c2ffd55")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "7609c064-0cbb-472f-b3d8-6ae26845325e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.98 1.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7a901754-d28e-47b7-9cd5-8574ac5a239b")
+	)
+	(pad "2" smd rect
+		(at 0.8 0)
+		(size 0.98 1.43)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "31494d20-677c-4dd9-a130-02470c963a43")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Components/Capacitors (CL21B106KOQNNNE)/Capacitor.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
