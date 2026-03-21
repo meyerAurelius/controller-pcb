@@ -1277,6 +1277,250 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Controller_Comp:DF13-4P-1.25H_21_"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "DF13-4P-1.25H_21_"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "DF134P125H21"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.in/datasheet/2/185/DF13_Catalog_en_DF13_CAT-2486995.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Headers & Wire Housings 1.25MM RA PIN HEADER 4P SMT TIN"
+				(at 11.43 -12.192 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "3.75"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Hirose"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21)"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "798-DF134P125H21"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "DF13-4P-1.25H(21)"
+				(at 19.05 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/df13-4p-1.25h-21/hirose-electric"
+				(at 19.05 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "DF13-4P-1.25H_21__1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Controller_Comp:ERJ-6ENF2200V"
 			(pin_names
 				(hide yes)
@@ -2163,214 +2407,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Controller_Comp:SM04B-GHS-TB_LF__SN_"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SM04B-GHS-TB_LF__SN_"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SM04B-GHS-TB"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://uk.rs-online.com/web/p/products/7521797"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-				(at 0.254 -8.128 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "N/A"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "SM04B-GHS-TB(LF)(SN)"
-				(at 16.51 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm04b-ghs-tb-lf-sn-/jst-manufacturing?region=europe"
-				(at 16.51 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "SM04B-GHS-TB_LF__SN__1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2474,12 +2510,6 @@
 		)
 	)
 	(junction
-		(at 256.54 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "00c0d016-d2a4-4591-8594-bd577788d73a")
-	)
-	(junction
 		(at 233.68 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2546,6 +2576,12 @@
 		(uuid "dad113ef-2f3a-4026-b62a-42a6c02526d6")
 	)
 	(junction
+		(at 256.54 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2012eb2-2044-4490-afb9-015e33d6f101")
+	)
+	(junction
 		(at 90.17 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2579,6 +2615,16 @@
 	)
 	(wire
 		(pts
+			(xy 283.21 24.13) (xy 283.21 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09b3c5d0-21db-4eb7-841a-f6d6cdac5f8a")
+	)
+	(wire
+		(pts
 			(xy 204.47 22.86) (xy 204.47 27.94)
 		)
 		(stroke
@@ -2599,7 +2645,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 34.29) (xy 256.54 27.94)
+			(xy 256.54 27.94) (xy 256.54 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2779,7 +2825,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 45.72) (xy 278.13 45.72)
+			(xy 279.4 46.99) (xy 283.21 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2939,16 +2985,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 27.94) (xy 256.54 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e4ba6a9-c784-4476-8da0-798fa02f9a8a")
-	)
-	(wire
-		(pts
 			(xy 199.39 83.82) (xy 205.74 83.82)
 		)
 		(stroke
@@ -2956,6 +2992,16 @@
 			(type default)
 		)
 		(uuid "803ccbba-c847-4f3b-bc1f-b9606ca4d418")
+	)
+	(wire
+		(pts
+			(xy 283.21 24.13) (xy 278.13 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81f755e0-e33f-419a-9e7d-14d49df29f8c")
 	)
 	(wire
 		(pts
@@ -2976,6 +3022,16 @@
 			(type default)
 		)
 		(uuid "8825342e-bea3-49b0-8f13-9a28b1280c28")
+	)
+	(wire
+		(pts
+			(xy 279.4 45.72) (xy 238.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "884ba921-4624-453f-a43d-96dfb89a3971")
 	)
 	(wire
 		(pts
@@ -3039,6 +3095,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 46.99) (xy 279.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fa161a-6b3f-40f4-b218-1f479c64bf11")
+	)
+	(wire
+		(pts
 			(xy 158.75 130.81) (xy 158.75 62.23)
 		)
 		(stroke
@@ -3089,6 +3155,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 31.75) (xy 278.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22a2ee0-8f9e-4d9e-a860-ddda15a8b51b")
+	)
+	(wire
+		(pts
 			(xy 238.76 30.48) (xy 232.41 30.48)
 		)
 		(stroke
@@ -3106,16 +3182,6 @@
 			(type default)
 		)
 		(uuid "b5dc3e35-2d53-4c83-b35c-14e2452dd67e")
-	)
-	(wire
-		(pts
-			(xy 278.13 22.86) (xy 276.86 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb3bbe9e-90ca-4d81-847e-a6126b6d9950")
 	)
 	(wire
 		(pts
@@ -3146,16 +3212,6 @@
 			(type default)
 		)
 		(uuid "bfca5046-8c57-45f2-a1ed-d9e06fdacfec")
-	)
-	(wire
-		(pts
-			(xy 278.13 45.72) (xy 278.13 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0628a7b-1069-4efc-a530-7314bfab675f")
 	)
 	(wire
 		(pts
@@ -3209,6 +3265,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 31.75) (xy 278.13 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0096131-8d33-4c6e-9720-a7a4cd1d38f1")
+	)
+	(wire
+		(pts
 			(xy 231.14 40.64) (xy 226.06 40.64)
 		)
 		(stroke
@@ -3236,6 +3302,16 @@
 			(type default)
 		)
 		(uuid "d4d25dca-14fc-445c-a64a-7bf9570a3471")
+	)
+	(wire
+		(pts
+			(xy 256.54 31.75) (xy 256.54 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d623f740-a261-43bc-acf1-469e034cf352")
 	)
 	(wire
 		(pts
@@ -3499,6 +3575,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 278.13 21.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ef0dda9-71f8-4e2e-b11d-0dc28bce5289")
+		(property "Reference" "#PWR011"
+			(at 284.48 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 281.94 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 278.13 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "094f3a00-f583-458e-afe0-5a41fa4d126e")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Controller_Comp:ERJP06F1002V")
 		(at 77.47 62.23 0)
 		(mirror y)
@@ -3632,152 +3775,6 @@
 			(project "controller_pcb"
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Controller_Comp:SM04B-GHS-TB_LF__SN_")
-		(at 256.54 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24cbf267-056f-4e63-a9eb-8cffd6bbc026")
-		(property "Reference" "J2"
-			(at 266.7 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SM04B-GHS-TB_LF__SN_"
-			(at 266.7 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SM04B-GHS-TB"
-			(at 273.05 117.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://uk.rs-online.com/web/p/products/7521797"
-			(at 273.05 217.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "JST GH Series, 1.25mm Pitch 4 Way Right Angle PCB Header, Solder Termination, 1A"
-			(at 256.794 30.988 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 273.05 417.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 273.05 517.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SM04B-GHS-TB(LF)(SN)"
-			(at 273.05 617.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "N/A"
-			(at 273.05 717.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/JST-Commercial/SM04B-GHS-TBLFSN?qs=QpmGXVUTftEJzKB1YHGCXw%3D%3D"
-			(at 273.05 817.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "SM04B-GHS-TB(LF)(SN)"
-			(at 273.05 917.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sm04b-ghs-tb-lf-sn-/jst-manufacturing?region=europe"
-			(at 273.05 1017.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "418f6850-aecd-4cdf-bde2-24df2106a855")
-		)
-		(pin "1"
-			(uuid "30c679f7-4d06-436c-89df-b8a358972de7")
-		)
-		(pin "2"
-			(uuid "69e36e0c-2168-4315-b401-e37e4d7f60e3")
-		)
-		(pin "3"
-			(uuid "3ff8d165-d510-4c27-adf3-62ecb5e17d68")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4962,6 +4959,158 @@
 			(project ""
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Controller_Comp:DF13-4P-1.25H_21_")
+		(at 255.27 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61d3c7e2-af65-42b0-9695-0b4ff4257a31")
+		(property "Reference" "J3"
+			(at 266.7 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DF13-4P-1.25H_21_"
+			(at 266.7 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Controller_Footprints:DF134P125H21"
+			(at 274.32 113.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/185/DF13_Catalog_en_DF13_CAT-2486995.pdf"
+			(at 274.32 213.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Headers & Wire Housings 1.25MM RA PIN HEADER 4P SMT TIN"
+			(at 266.7 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3.75"
+			(at 274.32 413.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Hirose"
+			(at 274.32 513.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "DF13-4P-1.25H(21)"
+			(at 274.32 613.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "798-DF134P125H21"
+			(at 274.32 713.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DF13-4P-1.25H21?qs=XQjbzJWzFPW%2FwtfCjCnzBg%3D%3D"
+			(at 274.32 813.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "DF13-4P-1.25H(21)"
+			(at 274.32 913.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/df13-4p-1.25h-21/hirose-electric"
+			(at 274.32 1013.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f1424359-777c-4a32-a88c-3a29c295542d")
+		)
+		(pin "MP1"
+			(uuid "500c3b2b-65d5-4689-9100-92b25616c555")
+		)
+		(pin "4"
+			(uuid "b8d69cad-59ed-4a88-9db1-0657b13ff40f")
+		)
+		(pin "MP2"
+			(uuid "d7ce5e06-6ef0-4987-b230-6360c6be6d35")
+		)
+		(pin "1"
+			(uuid "8abdece8-54ca-4b3b-97e0-8bafff691dae")
+		)
+		(pin "2"
+			(uuid "975f934f-7db1-472d-8e57-7daf894cc928")
+		)
+		(instances
+			(project ""
+				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6285,72 +6434,6 @@
 			(project ""
 				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 256.54 22.86 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6432a09-47e6-49c0-9363-8c929173d5dd")
-		(property "Reference" "#PWR011"
-			(at 250.19 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.778 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 256.54 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97c43764-f575-48b6-a836-b2740c91efa7")
-		)
-		(instances
-			(project ""
-				(path "/35628871-c2d7-47c8-b610-2ce05008c7f9"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
